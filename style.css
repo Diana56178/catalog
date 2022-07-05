@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+textarea::placeholder {
+    color: #666;
+}
+.header {
+    width: 100%;
+    height: auto;
+    border-style: solid none;
+    border-top-color: #572c5f;
+    border-bottom-color: #888888;
+    padding: 5px 28px 5px 28px;
+    font-size: 14px;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.button_in_header {
+    text-transform: uppercase;
+    color: #8031a7;
+    margin: 0 15px auto !important;
+}
+.header_part {
+    display: flex;
+    min-width: 30%;
+    justify-content: space-between;
+}
+.header_part > div {
+    margin: auto;
+}
+.header_part_left {
+    margin: 0 0 0 auto;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    height: auto;
+    padding-left: 28px;
+    padding-right: 28px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.journal_item {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+}
+.redactor {
+    color: #888888;
+    padding-left: 3px;
+}
+.button_in_header {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.button_in_header {
+    background-image: url("catalog/img/Add_Product_Button.png");
+    background-repeat: no-repeat;
+    width: 175px;
+    height: 40px;
+}
+.wrapper_menu, .date_wrapper, .wrapper_nav {
+    display: flex;
+}
+.wrapper_nav {
+    justify-content: space-between;
+}
+.menu_item {
+    margin-right: 5%;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    border-bottom: 2px solid #572c5f;
+    padding-bottom: 6px;
+}
+.date {
+    font-weight: bold;
+}
+.number {
+    font-weight: normal;
+}
+.article {
+    padding: 28px;
+}
+.add_header_for_article {
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.header_of_article {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.header_for_article {
+    display: flex;
+    font-size: 15px;
+    color: #888888;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.header_for_article > div {
+    margin-left: 7px;
+}
+.textarea {
+    resize: none;
+    width: 100%;
+    height: auto;
+    font-family: inherit;
+    color: black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.main_header_of_article {
+    border: solid 1px #d9d9d9;
+    resize: none;
+    width: 100%;
+    height: auto;
+    font-family: inherit;
+    color: black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    min-height: 197px;
+    max-height: 197px;
+}
+.second_header_of_article {
+    resize: none;
+    width: 100%;
+    height: auto;
+    font-family: inherit;
+    color: #666666;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: solid 1px #d9d9d9;
+    min-height: 130px;
+    max-height: 130px;
+}
+.button {
+    border: solid black 1px;
+    padding: 15px 15px;
+    color: black;
+    font-family: inherit;
+    font-size: 14px;
+}
+.add_img {
+    width: 100%;
+    height: auto;
+    border: dashed #d9d9d9 1px;
+    padding: 30px;
+}
+.article_section {
+    justify-content: space-between;
+    display: flex;
+}
+
+.button_for_img {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.form-row, .about_img, .img_wrapper, .img_description {
+    text-align: center;
+}
+.paragraph {
+    height: auto;
+}
+.paragraph_block {
+    font-size: 18px;
+    width: 100%;
+    min-height: 237px;
+    resize: none;
+    font-family: inherit;
+    border-color: #d9d9d9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.block_wrapper {
+    height: auto;
+    border: solid #d9d9d9 1px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.block_img {
+    margin: 0 auto;
+}
+.blocks {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 35px 0 35px 35px;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: solid #888888 1px;
+}
+.placeholder {
+    color: black;
+    font-size: 32px;
+}
+::-webkit-input-placeholder {color:black;}
+::-moz-placeholder         {color:black;}/* Firefox 19+ */
+:-moz-placeholder           {color:black;}/* Firefox 18- */
+:-ms-input-placeholder     {color:black;}
+.article {
+    width: 100%;
+    padding: 28px;
+}
+.main {
+    background-color: #f4f4f4;
+}
+.article_header {
+    font-size: 24px;
+}
+.paragraph_buttons {
+    display: flex;
+    cursor: pointer;
+}
+.article_section, .button_footer {
+    display: flex;
+}
+.block_header {
+    padding: 15px;
+}
+.article_header {
+    width: 100%;
+}
+.article_section {
+    display: flex;
+}
+.button_footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.button_icon {
+    width: 50px;
+    height: 50px;
+    border: solid #d9d9d9 1px;
+}
+.button_icon_arrows {
+    display: inline-table;
+}
+button {
+    margin-left: 15px;
+    margin-top: 15px;
+    border: none;
+}
+.paragraph_block {
+    margin-bottom: 20px;
+}
+.article_wrapper {
+    padding: 28px 35px;
+    background-color: #ffffff;
+    width: 85%;
+    border-bottom: solid #888888 1px;
+}
+.paragraph {
+    margin-bottom: 28px;
+    margin-top: 28px;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: solid #888888 1px;
+    padding: 20px 35px;
+    height: auto;
+    width: 85%;
+}
+.arrow_wrapper .arrow > button {
+    width: 100%;
+    height: 24px;
+    cursor: pointer;
+    margin: auto 0;
+    display: block;
+}
+.block_wrapper {
+    cursor: pointer;
+}
+.button_for_img, button > img {
+    cursor: pointer;
+}
+@media (min-width: 1200px) {
+    .article_wrapper, .paragraph, .blocks {
+        width: 85%;
+    }
+    .block_wrapper {
+        width: 31%;
+    }
+    .main_header_of_article {
+        font-size: 38px;
+    }
+    .second_header_of_article {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .article_wrapper, .paragraph, .blocks {
+        width: 100%;
+    }
+    .block_wrapper {
+        width: 47%;
+    }
+    .main_header_of_article {
+        font-size: 30px;
+     
+    }
+    .second_header_of_article {
+        font-size: 18px;
+    }
+}

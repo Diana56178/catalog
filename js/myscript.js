@@ -1,0 +1,1 @@
+function delNode(paragraph){paragraph.parentNode.parentNode.remove()}
